@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+}
+body{
+   	    background-color:#8BA1BB;
+        font-family: Arial;
+}
+
+h1{
+    text-align:center;
+    margin-top: 0px;
+}
+
+div.container{
+    background-color:white;
+    /* margin: 60px 10% 80px 10%; */
+    margin: 60px 10% 80px 10%;
+	padding: 0 30px 30px 30px;
+    min-width: 350px;
+    overflow: visible;
+}
+
+p.description{
+    text-align:center;
+	max-width: 400px;
+    display: inline-block;
+}
+
+p.categorie{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    /* margin-left: 30px; */
+    margin-top: -15px;
+    margin-bottom: 0px;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-size: 16px;
+    /* overflow: visible; */
+}
+div.categorie{
+    margin-bottom: 0px;    
+    margin-top: 0px;
+    overflow: visible;
+}
+nav{
+    margin-right: 100px;
+    text-align: right;
+}
+nav li{
+    display: inline;
+    margin-left: 20px;
+    text-align: right;
+}
+
+.centre{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+ }
+
+div.separateur{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ div.front{
+    position:relative
+}
+
+table.info{
+    position: absolute;
+    bottom: 0px; 
+    width: 100%;/*le tableau occupe tout l'espace disponible*/
+    height: 80px;
+    color: white;
+    background-color: #6C829DC0;/*couleur d'arrière plan du tableau avec une opacité de 50%*/
+}
+
+table.info td{
+    font-size: 14px;
+    vertical-align: top; 
+}
+
+
+table.info th{
+    font-size: 16px;
+    vertical-align: bottom; 
+    padding-bottom: 8px;
+}
+
+img.info{
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgray;
+}
+
+section.colonne{
+    width: 45%;
+    margin-top: 20px;
+}
+
+section.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;    
+    border-bottom: 5px solid #6C829D;
+    padding-bottom: 5px;
+}
+
+section.colonne1{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+section.colonne2{
+    float: right;
+}
+
+footer{
+    clear: both;
+}
+
+div.ingredients p{
+    border: 1px solid lightgray;
+    font-size: 14px;
+    padding: 5px 0;
+    margin: 4px 0 0 0;
+    text-align: center;
+}
+
+table.preparation p.numero{
+    background-color: #6C829D;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+
+table.preparation td{
+    vertical-align: top;
+}
+
+table.preparation td.preparation_etape{
+    font-size: 14px;
+    padding-left: 10px; 
+    padding-bottom: 10px;
+
+}
+
+
+table.preparation tr{
+    height: 36px;   
+}
